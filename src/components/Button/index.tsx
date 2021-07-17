@@ -9,6 +9,6 @@ export const Button = React.memo<Props>((props) => (
   <StyledButton {...props}>{props.children}</StyledButton>
 ));
 
-const StyledButton = styled.button`
-  color: blue;
+const StyledButton = styled.button<Props>`
+  color: ${(props) => (props.variant === "primary" ? "blue" : "red")};
 `;
