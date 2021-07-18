@@ -3,6 +3,10 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
+  console.log(import.meta.env.VITE_SAMPLE_ENV_KEY);
+
+  // define
+  // console.log(ENV_SAMPLE_KEY);
   return (
     <div className="App">
       <header className="App-header">
