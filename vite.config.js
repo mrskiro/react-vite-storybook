@@ -13,6 +13,9 @@ export default defineConfig({
       },
     ],
   },
+  build: {
+    outDir: "../dist",
+  },
 
   define: {
     ENV_SAMPLE_KEY: JSON.stringify("sample_env"),
