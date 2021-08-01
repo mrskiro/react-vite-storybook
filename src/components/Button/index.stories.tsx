@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as Storybook from "@storybook/react";
-import { Button } from "./";
+import { Button } from "~/components/Button";
 
 export default {
   title: "components/Button",
